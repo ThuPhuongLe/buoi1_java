@@ -15,7 +15,7 @@ public class B2 {
             for(int j=i+1; j<str2.length()+1; j++){
                 if(str1.contains(str2.substring(i,j))){
                     t++;
-                }                   
+                } else break;              
             }
             if(t>max)
                 max=t;
