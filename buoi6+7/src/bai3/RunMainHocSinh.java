@@ -39,7 +39,7 @@ public class RunMainHocSinh {
                     break;
                 case 4:
                     if (check()) {
-                        System.out.println("so hoc sinh co tuoi 23 va que o da nang la: " + Count23DN());
+                        System.out.println("so hoc sinh co tuoi 23 va que o DN la: " + Count23DN());
                     } else System.out.println("Chua co hoc sinh nao duoc nhap vao!");
                     break;
                 case 5:
